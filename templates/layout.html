@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
-
+{% load static %}
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,36 +8,34 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
-    <link rel="icon" href="photo/favicon.ico">
+    <link rel="icon" href="{% static 'photo/favicon.ico' %}">
 
     <!-- CSS
 	============================================ -->
     <!-- Bootstrap CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'css/bootstrap.min.css' %} " rel="stylesheet">
 
     <!-- FontAwesome CSS -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet">
 
     <!-- Ionicons CSS -->
-    <link href="css/ionicons.min.css" rel="stylesheet">
+    <link href="{% static 'css/ionicons.min.css' %}" rel="stylesheet">
 
     <!-- Plugins CSS -->
-    <link href="css/plugins.css" rel="stylesheet">
+    <link href="{% static 'css/plugins.css' %}" rel="stylesheet">
 
     <!-- Helper CSS -->
-    <link href="css/helper.css" rel="stylesheet">
+    <link href="{% static 'css/helper.css' %}" rel="stylesheet">
 
     <!-- Main CSS -->
-    <link href="css/main.css" rel="stylesheet">
+    <link href="{% static 'css/main.css' %}" rel="stylesheet">
 
     <!-- Modernizer JS -->
-    <script src="js/modernizr-2.8.3.min.js"></script>
+    <script src="{% static 'js/modernizr-2.8.3.min.js' %}"></script>
 
 </head>
 
 <body>
-
-
 <div class="header-container header-sticky">
     <div class="header-top pt-15 pb-15">
         <div class="container">
@@ -98,7 +96,7 @@
 
                     <div class="logo">
                         <a href="index.html">
-                            <img src="photo/logo.png" class="img-fluid" alt="">
+                            <img src="{% static 'photo/logo.png' %}" class="img-fluid" alt="">
                         </a>
                     </div>
 
@@ -156,7 +154,7 @@
                                     <span class="remove-item" id="remove-item"><a href="#"><i
                                             class="icon ion-md-close"></i></a></span>
                                     <div class="cart-float-single-item-image">
-                                        <a href="single-product.html"><img src="photo/product01.jpg"
+                                        <a href="single-product.html"><img src="{% static '{% static 'photo/product01.jpg"
                                                                            class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="cart-float-single-item-desc">
@@ -169,7 +167,7 @@
                                 <div class="cart-float-single-item d-flex">
                                     <span class="remove-item"><a href="#"><i class="icon ion-md-close"></i></a></span>
                                     <div class="cart-float-single-item-image">
-                                        <a href="single-product.html"><img src="photo/product02.jpg"
+                                        <a href="single-product.html"><img src="{% static '{% static 'photo/product02.jpg"
                                                                            class="img-fluid" alt=""></a>
                                     </div>
                                     <div class="cart-float-single-item-desc">
@@ -257,7 +255,7 @@
 
                     <div class="sticky-logo">
                         <a href="index.html">
-                            <img src="photo/logo.png" class="img-fluid" alt="">
+                            <img src="{% static '{% static 'photo/logo.png" class="img-fluid" alt="">
                         </a>
                     </div>
 
@@ -353,7 +351,7 @@
                                         </li>
                                         <li class="megamenu-banner text-center d-none d-lg-block">
                                             <a href="shop-left-sidebar.html">
-                                                <img src="photo/megamenu-banner.jpg" class="img-fluid"
+                                                <img src="{% static '{% static 'photo/megamenu-banner.jpg" class="img-fluid"
                                                      alt="">
                                             </a>
                                         </li>
@@ -414,7 +412,7 @@
                     <div class="address-block">
                         <div class="image">
                             <a href="index.html">
-                                <img src="static/photo/logo.png" class="img-fluid" alt="">
+                                <img src="static/{% static '{% static 'photo/logo.png" class="img-fluid" alt="">
                             </a>
                         </div>
 
@@ -530,7 +528,7 @@
                     <!--=======  payment logo  =======-->
 
                     <div class="payment-logo">
-                        <img src="static/photo/payment.png" class="img-fluid" alt="">
+                        <img src="static/{% static '{% static 'photo/payment.png" class="img-fluid" alt="">
                     </div>
 
                     <!--=======  End of payment logo  =======-->
@@ -565,19 +563,19 @@
 <!-- JS
 ============================================ -->
 <!-- jQuery JS -->
-<script src="static/js/jquery.min.js"></script>
+<script src="{% static 'js/jquery.min.js' %}"></script>
 
 <!-- Popper JS -->
-<script src="static/js/popper.min.js"></script>
+<script src="{% static 'js/popper.min.js' %}"></script>
 
 <!-- Bootstrap JS -->
-<script src="static/js/bootstrap.min.js"></script>
+<script src="{% static 'css/bootstrap.min.js' %}"></script>
 
 <!-- Plugins JS -->
-<script src="static/js/plugins.js"></script>
+<script src="{% static 'css/plugins.js' %}"></script>
 
 <!-- Main JS -->
-<script src="static/js/main.js"></script>
+<script src="{% static 'css/main.js' %}"></script>
 
 </body>
 
