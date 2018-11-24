@@ -4,6 +4,13 @@ from django.views import View
 from user.models import User
 
 
+class AdminIndexView(View):
+    template_name = "admin/index.html"
+
+    def get(self, request, *args, **kwargs):
+        return render(request, self.template_name)
+
+
 class UserIndexView(View):
     template_name = "admin/user/index.html"
 
@@ -69,4 +76,3 @@ class UserDeleteView(View):
             user.delete()
 
         return redirect('/admin/user')
-
