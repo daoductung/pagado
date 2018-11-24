@@ -53,12 +53,12 @@ class ProductEditView(View):
         product = Product.objects.get(id=product_id)
         if product:
             data = request.POST
+            product.name = data['name']
+            product.price = data['price']
             if request.FILES.get('image', None):
                 file = request.FILES['image']
-                product.name = data['name']
-                product.price = data['price']
                 product.image = file
-                product.save()
+            product.save()
 
         return redirect('/admin/product')
 

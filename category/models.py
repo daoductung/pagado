@@ -5,7 +5,6 @@ from django.db import models
 
 class Category(models.Model):
     name = models.CharField(max_length=50)
-    type = models.CharField(max_length=50)
     image = models.FileField(
         storage=FileSystemStorage(location=settings.MEDIA_ROOT),
         upload_to='category',

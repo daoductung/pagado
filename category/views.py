@@ -33,7 +33,6 @@ class CategoryAddView(View):
         if request.FILES.get('image', None):
             category = Category()
             category.name = data['name']
-            category.type = data['type']
             category.image = file
             category.save()
 
@@ -57,12 +56,12 @@ class CategoryEditView(View):
         category = Category.objects.get(id=category_id)
         if category:
             data = request.POST
+            category.name = data['name']
             if request.FILES.get('image', None):
                 file = request.FILES['image']
-                category.name = data['name']
-                category.type = data['type']
                 category.image = file
-                category.save()
+            category.save()
+
 
         return redirect('/admin/category')
 
