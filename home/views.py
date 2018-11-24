@@ -1,3 +1,12 @@
 from django.shortcuts import render
+from django.views.generic import View
 
-# Create your views here.
+from product.models import Product
+
+
+class IndexView(View):
+    template_name = "index.html"
+
+    def get(self, request, *args, **kwargs):
+        return render(request, self.template_name)
+
