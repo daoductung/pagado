@@ -20,7 +20,7 @@ from pagado import settings
 urlpatterns = [
     path('', include('home.urls')),
     path('', include('user.urls')),
-    path('', include('user.urls')),
+    path('', include('product.urls'))
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

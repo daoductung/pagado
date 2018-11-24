@@ -1,0 +1,72 @@
+{% extends "admin/admin_layout.html" %}
+
+{% block admin-content %}
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            Sản phẩm
+        </h1>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="box">
+                    <div class="box-header">
+                        <h3 class="box-title">Danh sách Sản phẩm</h3>
+
+                        <div class="box-tools">
+                            <div class="input-group input-group-sm" style="width: 150px;">
+                                <input type="text" name="table_search" class="form-control pull-right"
+                                       placeholder="Search">
+
+                                <div class="input-group-btn">
+                                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body table-responsive no-padding">
+                        <table class="table table-hover">
+                            <tr>
+                                <th>Mã</th>
+                                <th>Tên</th>
+                                <th>Giá sản phẩm</th>
+                                <th>Hình ảnh</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                            {% for sp in ds_san_pham %}
+                                <tr>
+                                    <td>{{ sp.id }}</td>
+                                    <td>{{ sp.name }}</td>
+                                    <td>{{ sp.price }}</td>
+                                    <td><img width="50" height="50" src="/media/{{ loai_sp.image }}"/></td>
+                                    <td>
+                                        <a href="/admin/product/edit/{{ sp.id }}">Sửa</a>
+                                    </td>
+                                    <td>
+                                        <a href="/admin/product/delete/{{ sp.id }}">Xóa</a>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        </table>
+                    </div>
+                    <!-- /.box-body -->
+                    <div class="box-footer">
+                        <a class="btn btn-primary" href="/admin/product/add">Thêm mới</a>
+                    </div>
+                </div>
+                <!-- /.box -->
+            </div>
+        </div>
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+{% endblock %}
