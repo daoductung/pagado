@@ -2,79 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a88b848b-970a-40b3-8335-1becc7f7c183" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/pagado.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/helper.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/ionicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/plugins.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../home/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../home/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../home/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../home/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../js/modernizr-2.8.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../js/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/banner1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/banner2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/banner3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/banner7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/banner8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/megamenu-banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/payment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/product01-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/product01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/product02-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/product02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/product03-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/product03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/product04-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/product04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/product05-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/product05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/product06-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/product06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/tab-product01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/tab-product02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../photo/tab-product03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../product/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../saleorder/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../saleorder/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../saleorder/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../saleorder/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../saleorder/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../saleorder/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../saleorder/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../New Text Document.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../home/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../home/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../static/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/helper.css" beforeDir="false" afterPath="$PROJECT_DIR$/../static/css/helper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/ionicons.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/../static/css/ionicons.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../css/plugins.css" beforeDir="false" afterPath="$PROJECT_DIR$/../static/css/plugins.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../home/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../static/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/modernizr-2.8.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../static/js/modernizr-2.8.3.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/plugins.js" beforeDir="false" afterPath="$PROJECT_DIR$/../static/js/plugins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/popper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/../static/js/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/01.png" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/02.png" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/03.png" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/04.png" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/banner1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/banner1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/banner2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/banner2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/banner3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/banner3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/banner7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/banner7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/banner8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/banner8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/megamenu-banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/megamenu-banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/payment.png" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/payment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/product01-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/product01-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/product01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/product01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/product02-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/product02-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/product02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/product02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/product03-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/product03-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/product03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/product03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/product04-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/product04-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/product04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/product04.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/product05-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/product05-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/product05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/product05.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/product06-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/product06-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/product06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/product06.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/tab-product01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/tab-product01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/tab-product02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/tab-product02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../photo/tab-product03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../static/photo/tab-product03.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,20 +70,20 @@
     <session id="-72397933">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="3" />
+          <entry key="html" value="5" />
           <entry key="py" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="3" />
+          <entry key="HTML" value="5" />
           <entry key="Python" value="27" />
         </counts>
       </usages-collector>
@@ -117,53 +101,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pagado/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pagado/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-              <folding>
-                <element signature="e#630#667#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/layout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="102">
+              <caret line="136" selection-start-line="136" selection-end-line="136" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -174,6 +135,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -197,11 +159,14 @@
         <option value="$PROJECT_DIR$/home/models.py" />
         <option value="$PROJECT_DIR$/pagado/urls.py" />
         <option value="$PROJECT_DIR$/home/views.py" />
+        <option value="$PROJECT_DIR$/templates/layout.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="704" />
+    <option name="x" value="483" />
+    <option name="y" value="9" />
     <option name="width" value="657" />
     <option name="height" value="733" />
   </component>
@@ -224,11 +189,6 @@
             <path>
               <item name="pagado" type="b2602c69:ProjectViewProjectNode" />
               <item name="pagado" type="462c0819:PsiDirectoryNode" />
-              <item name="pagado" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pagado" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pagado" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -238,10 +198,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\thuchien-python\pagado\templates" />
       <recent name="C:\Users\Admin\Desktop\thuchien-python\pagado\template" />
       <recent name="C:\Users\Admin\Desktop\thuchien-python\pagado" />
       <recent name="C:\Users\Admin\Desktop\thuchien-python\pagado\static" />
@@ -510,7 +472,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.125" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.29017857" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.09344263" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -592,6 +554,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pagado/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="e#630#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pagado/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/home/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -602,37 +594,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pagado/settings.py">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pagado/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="102">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
           <folding>
-            <element signature="e#630#667#0" expanded="true" />
+            <element signature="n#head#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="153">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
