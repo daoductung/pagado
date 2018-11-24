@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="7e36da45-e122-4f18-9aa8-4abeca108a20" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
 =======
@@ -9,6 +10,9 @@
       <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
 >>>>>>> f110dff9cafdbd8422863d3f47710f2c1383cbcf
     </list>
+=======
+    <list default="true" id="7742fbd4-a685-49f7-94e9-54e6dbe33e62" name="Default Changelist" comment="" />
+>>>>>>> 94430ee44de44754e9ef0310ce0f7f301be71485
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,24 +30,35 @@
     <session id="1247340948">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.4" value="1" />
+<<<<<<< HEAD
 >>>>>>> f110dff9cafdbd8422863d3f47710f2c1383cbcf
           <entry key="project.opened" value="1" />
+=======
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
+>>>>>>> 94430ee44de44754e9ef0310ce0f7f301be71485
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
 <<<<<<< HEAD
+<<<<<<< HEAD
           <entry key="html" value="21" />
           <entry key="py" value="37" />
 =======
           <entry key="html" value="1" />
+=======
+          <entry key="html" value="3" />
+>>>>>>> 94430ee44de44754e9ef0310ce0f7f301be71485
           <entry key="py" value="1" />
 >>>>>>> f110dff9cafdbd8422863d3f47710f2c1383cbcf
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
 <<<<<<< HEAD
           <entry key="HTML" value="21" />
           <entry key="Python" value="37" />
@@ -61,6 +76,9 @@
           <entry key="Python" value="428" />
 =======
           <entry key="HTML" value="1" />
+=======
+          <entry key="HTML" value="3" />
+>>>>>>> 94430ee44de44754e9ef0310ce0f7f301be71485
           <entry key="Python" value="1" />
 >>>>>>> f110dff9cafdbd8422863d3f47710f2c1383cbcf
         </counts>
@@ -68,7 +86,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
 <<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/templates/admin/saleorder/edit.html">
@@ -117,13 +135,19 @@
 =======
         <entry file="file://$PROJECT_DIR$/pagado/settings.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="187">
               <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
 >>>>>>> f110dff9cafdbd8422863d3f47710f2c1383cbcf
+=======
+            <state relative-caret-position="-901">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+>>>>>>> 94430ee44de44754e9ef0310ce0f7f301be71485
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
 <<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/user/views.py">
@@ -136,12 +160,34 @@
             <state relative-caret-position="238">
               <caret line="209" column="70" selection-start-line="209" selection-start-column="70" selection-end-line="209" selection-end-column="70" />
 >>>>>>> f110dff9cafdbd8422863d3f47710f2c1383cbcf
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/layout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3553">
+              <caret line="209" column="114" selection-start-line="209" selection-start-column="70" selection-end-line="209" selection-end-column="114" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="206" column="88" selection-start-line="205" selection-start-column="69" selection-end-line="206" selection-end-column="88" />
+>>>>>>> 94430ee44de44754e9ef0310ce0f7f301be71485
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/cart.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
   </component>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <component name="FindInProjectRecents">
     <findStrings>
@@ -152,6 +198,13 @@
   </component>
 =======
 >>>>>>> f110dff9cafdbd8422863d3f47710f2c1383cbcf
+=======
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/saleorder</find>
+    </findStrings>
+  </component>
+>>>>>>> 94430ee44de44754e9ef0310ce0f7f301be71485
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -172,6 +225,7 @@
   <component name="ProjectFrameBounds" extendedState="7">
 =======
         <option value="$PROJECT_DIR$/templates/layout.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
@@ -193,9 +247,13 @@
     </navigator>
     <panes>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <pane id="Scope" />
 =======
 >>>>>>> f110dff9cafdbd8422863d3f47710f2c1383cbcf
+=======
+      <pane id="Scope" />
+>>>>>>> 94430ee44de44754e9ef0310ce0f7f301be71485
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -245,6 +303,11 @@
             <path>
               <item name="Back-End" type="b2602c69:ProjectViewProjectNode" />
               <item name="Back-End" type="462c0819:PsiDirectoryNode" />
+              <item name="pagado" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Back-End" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Back-End" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
 >>>>>>> f110dff9cafdbd8422863d3f47710f2c1383cbcf
             </path>
@@ -253,10 +316,16 @@
         </subPane>
       </pane>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
       <pane id="Scope" />
 >>>>>>> f110dff9cafdbd8422863d3f47710f2c1383cbcf
+=======
+>>>>>>> 94430ee44de44754e9ef0310ce0f7f301be71485
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -322,15 +391,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -338,7 +402,14 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< HEAD
 >>>>>>> f110dff9cafdbd8422863d3f47710f2c1383cbcf
+=======
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+>>>>>>> 94430ee44de44754e9ef0310ce0f7f301be71485
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -539,16 +610,31 @@
 =======
     <entry file="file://$PROJECT_DIR$/pagado/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="-901">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="238">
           <caret line="209" column="70" selection-start-line="209" selection-start-column="70" selection-end-line="209" selection-end-column="70" />
 >>>>>>> f110dff9cafdbd8422863d3f47710f2c1383cbcf
+=======
+        <state relative-caret-position="3553">
+          <caret line="209" column="114" selection-start-line="209" selection-start-column="70" selection-end-line="209" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/cart.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="206" column="88" selection-start-line="205" selection-start-column="69" selection-end-line="206" selection-end-column="88" />
+>>>>>>> 94430ee44de44754e9ef0310ce0f7f301be71485
         </state>
       </provider>
     </entry>
