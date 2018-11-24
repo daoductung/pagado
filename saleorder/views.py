@@ -1,5 +1,6 @@
 import json
 
+from django.http import HttpResponse
 from django.shortcuts import render
 from django.views.generic import TemplateView, View
 
@@ -55,7 +56,7 @@ class SaleOrderAddView(View):
                 sale_order_detail.price = detail.get('product_price', '0')
                 sale_order_detail.save()
 
-        return "OK"
+        return HttpResponse("ok")
 
 
 class SaleOrderEditView(View):

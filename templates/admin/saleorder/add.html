@@ -21,15 +21,16 @@
         });
         $.ajax({
           method: "POST",
-          url: "/admin/sale_order/add",
+          url: "/admin/saleorder/add",
           data: {
             'csrfmiddlewaretoken': '{{ csrf_token }}',
             'name': name,
             'sale_order_detail':  JSON.stringify(sale_order_detail)
           }
         }).done(function( msg ) {
+            console.log(msg);
             if(msg){
-                window.location.replace('/admin/sale_order');
+                window.location.href= '/admin/saleorder';
             }
         });
     }
