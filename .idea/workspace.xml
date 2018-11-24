@@ -2,59 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a88b848b-970a-40b3-8335-1becc7f7c183" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/helper.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/ionicons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/plugins.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/modernizr-2.8.3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagado/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pagado/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/banner1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/banner2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/banner3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/banner7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/banner8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/megamenu-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/payment.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/product01-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/product01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/product02-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/product02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/product03-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/product03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/product04-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/product04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/product05-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/product05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/product06-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/product06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/tab-product01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/tab-product02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/photo/tab-product03.jpg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/pagado.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/helper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../css/plugins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js/modernizr-2.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/banner2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/banner7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/banner8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/megamenu-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/payment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/product01-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/product01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/product02-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/product02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/product03-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/product03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/product04-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/product04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/product05-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/product05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/product06-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/product06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/tab-product01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/tab-product02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../photo/tab-product03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saleorder/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saleorder/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saleorder/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saleorder/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saleorder/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saleorder/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../saleorder/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../New Text Document.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../home/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../home/migrations/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,20 +87,20 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="2" />
-          <entry key="py" value="26" />
+          <entry key="html" value="3" />
+          <entry key="py" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="2" />
-          <entry key="Python" value="26" />
+          <entry key="HTML" value="3" />
+          <entry key="Python" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -96,8 +116,8 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -112,7 +132,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pagado/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="918">
               <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
             </state>
           </provider>
@@ -121,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pagado/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+            <state relative-caret-position="340">
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               <folding>
                 <element signature="e#630#667#0" expanded="true" />
               </folding>
@@ -133,16 +153,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -161,6 +178,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -206,11 +224,6 @@
             <path>
               <item name="pagado" type="b2602c69:ProjectViewProjectNode" />
               <item name="pagado" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pagado" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pagado" type="462c0819:PsiDirectoryNode" />
               <item name="pagado" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -233,6 +246,211 @@
       <recent name="C:\Users\Admin\Desktop\thuchien-python\pagado" />
       <recent name="C:\Users\Admin\Desktop\thuchien-python\pagado\static" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../.idea/misc.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../.idea/pagado.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../css/bootstrap.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../css/font-awesome.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../css/helper.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../css/ionicons.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../css/main.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../css/plugins.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../home/__init__.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../home/__pycache__/__init__.cpython-37.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../home/__pycache__/apps.cpython-37.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../home/__pycache__/models.cpython-37.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../home/apps.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../home/migrations/__init__.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../home/migrations/__pycache__/__init__.cpython-37.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../home/models.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../home/urls.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../home/views.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../js/bootstrap.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../js/jquery.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../js/main.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../js/modernizr-2.8.3.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../js/plugins.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../js/popper.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../manage.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/__init__.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/__pycache__/__init__.cpython-37.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/__pycache__/settings.cpython-37.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/__pycache__/urls.cpython-37.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/settings.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/urls.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/wsgi.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/01.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/01.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/02.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/02.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/03.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/03.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/04.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/04.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/05.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/06.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/banner1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/banner2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/banner3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/banner7.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/banner8.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/favicon.ico</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/logo.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/megamenu-banner.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/payment.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/product01-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/product01.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/product02-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/product02.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/product03-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/product03.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/product04-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/product04.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/product05-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/product05.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/product06-2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/product06.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/tab-product01.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/tab-product02.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../photo/tab-product03.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../product/__init__.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../product/__pycache__/__init__.cpython-37.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../product/__pycache__/apps.cpython-37.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../product/__pycache__/models.cpython-37.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../product/apps.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../product/migrations/0001_initial.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../product/migrations/__init__.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../product/migrations/__pycache__/0001_initial.cpython-37.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../product/migrations/__pycache__/__init__.cpython-37.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../product/models.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../product/urls.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../product/views.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../saleorder/__init__.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../saleorder/__pycache__/__init__.cpython-37.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../saleorder/__pycache__/apps.cpython-37.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../saleorder/__pycache__/models.cpython-37.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../saleorder/apps.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../saleorder/migrations/0001_initial.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../saleorder/migrations/__init__.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../saleorder/migrations/__pycache__/0001_initial.cpython-37.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../saleorder/migrations/__pycache__/__init__.cpython-37.pyc</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../saleorder/models.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../saleorder/urls.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../saleorder/views.py</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../New Text Document.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../test.txt</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        <PATH vcs="Git" revision="">$PROJECT_DIR$/../.idea/vcs.xml</PATH>
+        <PATH vcs="Git" revision="">$PROJECT_DIR$/../.idea/workspace.xml</PATH>
+        <PATH vcs="Git" revision="">$PROJECT_DIR$/../.idea/modules.xml</PATH>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -313,14 +531,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/saleorder/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/saleorder/admin.py" />
     <entry file="file://$PROJECT_DIR$/saleorder/urls.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -340,9 +555,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pagado/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pagado/models.py" />
     <entry file="file://$PROJECT_DIR$/product/urls.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -376,43 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-column="28" />
-          <folding>
-            <marker date="1543068530372" expanded="true" signature="56:57" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pagado/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pagado/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding>
-            <element signature="e#630#667#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -423,6 +599,40 @@
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pagado/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="51" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pagado/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="e#630#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
