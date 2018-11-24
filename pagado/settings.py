@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'home.apps.HomeConfig',
     'product.apps.ProductConfig',
     'saleorder.apps.SaleorderConfig',
+    'user.apps.UserConfig',
 ]
 
 MIDDLEWARE = [
@@ -75,8 +76,8 @@ DATABASES = {
         'NAME': 'backend',
         'HOST': 'localhost',
         'PORT': '5432',
-        'USER': 'python',
-        'PASSWORD': 'python'
+        'USER': 'nhat',
+        'PASSWORD': 'nhat'
     }
 }
 
