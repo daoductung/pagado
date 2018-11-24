@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'tw4lus#***pql#2nvad(47x8qb9)#g#$r!0@m%g3th&*!g1*_x'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -82,7 +82,7 @@ DATABASES = {
         'PASSWORD': '69f03a4a564b20191659fcd73fc12a21d0d34ea9b48c7fb2726a57693109858c'
     }
 }
-
+DATABASES['default'].update(dj_database_url.config(conn_max_age=500, require_ssl=True))
 # Internationalization
 # https://docs.djangoproject.com/en/dev/topics/i18n/
 
