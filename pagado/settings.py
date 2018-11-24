@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/dev/ref/settings/
 
 import os
 import django_heroku
-import dj_database_url
 
 django_heroku.settings(locals())
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -80,10 +79,10 @@ DATABASES = {
         'HOST': 'ec2-50-17-203-51.compute-1.amazonaws.com',
         'PORT': '5432',
         'USER': 'mltcqdlhzoufwq',
-        'PASSWORD': '69f03a4a564b20191659fcd73fc12a21d0d34ea9b48c7fb2726a57693109858c'
+        'PASSWORD': '69f03a4a564b20191659fcd73fc12a21d0d34ea9b48c7fb2726a57693109858c',
+        'CONN_MAX_AGE': 600,
     }
 }
-DATABASES['default'].update(dj_database_url.config(conn_max_age=500, require_ssl=True))
 # Internationalization
 # https://docs.djangoproject.com/en/dev/topics/i18n/
 
