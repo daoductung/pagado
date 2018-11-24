@@ -1,52 +1,145 @@
 {% extends "admin/admin_layout.html" %}
 
 {% block admin-content %}
-    <!-- Content Wrapper. Contains page content -->
-    <div class="content-wrapper">
-        <!-- Content Header (Page header) -->
-        <section class="content-header">
-            <h1>
-                Sản phẩm
-            </h1>
-        </section>
 
-        <!-- Main content -->
-        <section class="content">
-            <div class="row">
-                <div class="col-md-12">
-                    <!-- general form elements -->
-                    <div class="box box-primary">
-                        <div class="box-header with-border">
-                            <h3 class="box-title">Sửa Loại sản phẩm</h3>
-                        </div>
-                        <!-- /.box-header -->
-                        <!-- form start -->
-                        <form role="form" method="post" enctype="multipart/form-data">
-                            {% csrf_token %}
-                            <div class="box-body">
-                                <div class="form-group">
-                                    <label for="txtName">Tên</label>
-                                    <input type="text" name="name" value="{{ category.name }}" class="form-control" id="txtName" placeholder="Tên">
-                                </div>
-                                <div class="form-group">
-                                    <label for="txtImage">Ảnh</label><br>
-                                    <img width="150" height="150" src="/media/{{ category.image }}"/>
-                                    <input type="file" name="image" class="form-control" id="txtImage" placeholder="Ảnh">
-                                </div>
-                            </div>
-                            <!-- /.box-body -->
+{% block javascript %}
+<script type="text/javascript">
+    function EditSaleOrder() {
+        var name = $("#txtName").val();
+        var sale_order_detail = [];
 
-                            <div class="box-footer">
-                                <button type="submit" class="btn btn-primary">Lưu</button>
-                            </div>
-                        </form>
+        $("#tbSaleOrderDetail tr.product-item").each(function () {
+            var product_id = $(this).find(".product_id").html();
+            var product_qty = $(this).find(".product_qty").html();
+            var product_price = $(this).find(".product_price").html();
+            sale_order_detail.push({
+                'product_id': product_id,
+                'product_qty': product_qty,
+                'product_price': product_price
+            })
+            console.log(sale_order_detail);
+        });
+        $.ajax({
+          method: "POST",
+          url: "/admin/saleorder/add",
+          data: {
+            'csrfmiddlewaretoken': '{{ csrf_token }}',
+            'name': name,
+            'sale_order_detail':  JSON.stringify(sale_order_detail)
+          }
+        }).done(function( msg ) {
+            console.log(msg);
+            if(msg){
+                window.location.href= '/admin/saleorder';
+            }
+        });
+    }
+
+    function EditSaleOrderDetail() {
+        var product_id = $("#cbSanPham").val();
+        var product_name = $("#cbSanPham option:selected").text();
+        var qty = $("#txtQty").val();
+        var price = $("#txtPrice").val();
+        var html = "<tr class='product-item'>" +
+                        "<td class='product_id'>"+ product_id +"</td>"+
+                        "<td class='product_name'>"+ product_name +"</td>"+
+                        "<td class='product_qty'>"+ qty +"</td>"+
+                        "<td class='product_price'>"+ price +"</td>"+
+                        "<td>"+
+                            "<a href='javascript:void(0)'>Xóa</a>"+
+                        "</td>"+
+                    "</tr>";
+        $("#tbSaleOrderDetail").append(html);
+    }
+</script>
+{% endblock %}
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>Đơn hàng</h1>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <div class="col-md-4">
+                <!-- general form elements -->
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Sửa</h3>
                     </div>
-                    <!-- /.box -->
+                    <!-- /.box-header -->
+                    <!-- form start -->
+                     <form role="form" method="post">
+                         {% csrf_token %}
+                        <div class="box-body">
+                            <div class="form-group">
+                                <label for="txtName">Tên</label>
+                                <input type="text" value="{{ sale_order.name }}" class="form-control" id="txtName" placeholder="Tên">
+                            </div>
+                            <div class="form-group">
+                                <label for="txtDate">Ngày</label>
+                                <input type="text" value="{{ sale_order.date }}" class="form-control" id="txtDate" placeholder="Ngày">
+                            </div>
+                        </div>
+                        <!-- /.box-body -->
 
+                        <div class="box-footer">
+                            <button type="button" onclick="EditSaleOrder()" class="btn btn-primary">Lưu</button>
+                        </div>
+                     </form>
+                </div>
+                <!-- /.box -->
+
+            </div>
+            <div class="col-md-8">
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Chi tiết đơn hàng</h3>
+                    </div>
+                    <div class="box-body table-responsive no-padding">
+                        <table id="tbSaleOrderDetail" class="table table-hover">
+                            <tr>
+                                <th>Mã sản phẩm</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Số lượng</th>
+                                <th>Giá</th>
+                                <th></th>
+                            </tr>
+
+                            <tr>
+                                <th>
+                                    <select id="cbSanPham" class="form-control">
+                                    {% for ds in ds_saleorderdetail %}
+                                        <option value="{{ ds.id }}">{{ ds.name }}</option>
+                                    </select>
+                                </th>
+                                <th>Tên sản phẩm</th>
+                                <th>
+                                    <div class="form-group">
+                                        <input type="number" id="txtQty" min="1" value="{{ ds.quantity }}" class="form-control" placeholder="Số lượng">
+                                    </div>
+                                </th>
+                                <th><input type="text" id="txtPrice" class="form-control"  placeholder="Giá"></th>
+                                <th></th>
+                                    {% endfor %}
+                            </tr>
+
+
+                        </table>
+                    </div>
+
+                    <div class="box-footer">
+                        <button type="button" data-toggle="modal" data-target="#modelAddSaleOrderDetail" class="btn btn-primary">Thêm mới</button>
+                    </div>
                 </div>
             </div>
-        </section>
-        <!-- /.content -->
-    </div>
-    <!-- /.content-wrapper -->
+        </div>
+    </section>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+
 {% endblock %}

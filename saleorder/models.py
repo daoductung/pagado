@@ -8,6 +8,9 @@ from product.models import Product
 class SaleOrder(models.Model):
     name = models.CharField(max_length=20)
     date = models.DateField(default=datetime.date.today)
+    name_user = models.CharField(max_length=20)
+    address_user = models.CharField(max_length=50)
+    numer_phone = models.CharField(max_length=10)
 
     class Meta:
         db_table = 'sale_order'

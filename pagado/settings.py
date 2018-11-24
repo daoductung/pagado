@@ -73,8 +73,13 @@ WSGI_APPLICATION = 'pagado.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
+<<<<<<< HEAD
+        'NAME': 'backend_python',
+        'HOST': 'localhost',
+=======
         'NAME': 'do7norn3v2mot',
         'HOST': 'ec2-50-17-203-51.compute-1.amazonaws.com',
+>>>>>>> e91605c19b5619df7ef6cb277b6d23e61adb32da
         'PORT': '5432',
         'USER': 'mltcqdlhzoufwq',
         'PASSWORD': '69f03a4a564b20191659fcd73fc12a21d0d34ea9b48c7fb2726a57693109858c',
