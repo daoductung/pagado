@@ -24,7 +24,7 @@ SECRET_KEY = 'tw4lus#***pql#2nvad(47x8qb9)#g#$r!0@m%g3th&*!g1*_x'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -73,14 +73,14 @@ WSGI_APPLICATION = 'pagado.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'backend_python',
-        'HOST': 'localhost',
+        'NAME': 'do7norn3v2mot',
+        'HOST': 'ec2-50-17-203-51.compute-1.amazonaws.com',
         'PORT': '5432',
-        'USER': 'python',
-        'PASSWORD': 'python'
+        'USER': 'mltcqdlhzoufwq',
+        'PASSWORD': '69f03a4a564b20191659fcd73fc12a21d0d34ea9b48c7fb2726a57693109858c',
+        'CONN_MAX_AGE': 600,
     }
 }
-
 # Internationalization
 # https://docs.djangoproject.com/en/dev/topics/i18n/
 
@@ -96,10 +96,12 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/dev/howto/static-files/
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
