@@ -140,8 +140,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+<<<<<<< HEAD
+    <option name="RECENT_GIT_ROOT_PATH" value="H:" />
+=======
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+>>>>>>> 89d7cd6812b87b4277744a345149500635617c22
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -427,7 +431,11 @@
     </option>
   </component>
   <component name="RunManager">
+<<<<<<< HEAD
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python">
+=======
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 89d7cd6812b87b4277744a345149500635617c22
       <module name="pagado" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -440,7 +448,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+<<<<<<< HEAD
+      <option name="PARAMETERS" value="" />
+=======
       <option name="PARAMETERS" value="runserver 9798" />
+>>>>>>> 89d7cd6812b87b4277744a345149500635617c22
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -448,11 +460,14 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
+=======
     <recent_temporary>
       <list>
         <item itemvalue="Python.manage" />
       </list>
     </recent_temporary>
+>>>>>>> 89d7cd6812b87b4277744a345149500635617c22
   </component>
   <component name="SvnConfiguration">
     <configuration />
