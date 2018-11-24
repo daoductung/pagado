@@ -5,7 +5,7 @@ from product.models import Product
 
 
 class IndexView(View):
-    template_name = "cart.html"
+    template_name = "index.html"
 
     def get(self, request, *args, **kwargs):
         return render(request, self.template_name)
