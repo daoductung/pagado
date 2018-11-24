@@ -47,7 +47,7 @@ class ProductController extends Controller
 
 
 		$file = $req->file('Image');
-		$file1 = $req->file('Image1');
+		$file = $req->file('Image1');
 		$file_name = $file->getClientOriginalName();
 		$path = $file->move('uploads', $file_name);
 
@@ -75,13 +75,12 @@ class ProductController extends Controller
 		$product->name = $req->Name;
 
 		$file = $req->file('Image');
-		$file1 = $req->file('Image1');
+		$file = $req->file('Image1');
 		$path = "";
 		if($file){
 			$file_name = $file->getClientOriginalName();
 			$path = $file->move('uploads', $file_name);
 		}
-		
 
 		$product->image = $path;
 		$product->image1 = $path;

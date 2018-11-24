@@ -32,3 +32,11 @@ Route::prefix('product')->group(function () {
 
 		Route::get('delete/{id}', 'ProductController@delete');
 	});
+
+Route::get('login', 'UserController@getLogin');
+
+Route::prefix('order')->group(function () {
+	Route::get('', 'OrderController@index');
+	Route::get('add', 'OrderController@getAdd');
+	Route::post('add', 'OrderController@postAdd');
+});

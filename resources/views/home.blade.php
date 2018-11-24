@@ -109,7 +109,7 @@
 										<li><a href="cart.html">Cart</a></li>
 										<li><a href="checkout.html">Checkout</a></li>
 										<li><a href="my-account.html">My Account</a></li>
-										<li><a href="login-register.html">Login</a></li>
+										<li><a href="/login">Login</a></li>
 									</ul>
 								</div>
 							</div>
@@ -586,8 +586,8 @@
 									<div class="fl-product">
 										<div class="image sale-product">
 											<a href="single-product.html">
-												<img src="{{ $product->image }}" class="img-fluid" alt="">
-												<img src="http://demo.devitems.com/furnilife-v1/furnilife/assets/images/products/product01-2.jpg" class="img-fluid" alt="">
+												<img src="\{{ $product->image }}" class="img-fluid" alt="">
+												<img src="\{{ $product->image1 }}" class="img-fluid" alt="">
 											</a>
 											<!-- wishlist icon -->
 											<span class="wishlist-icon">
@@ -610,7 +610,7 @@
 
 											<div class="hover-icons">
 												<ul>
-													<li><a href="#"  data-tooltip="Add to Cart"><i class="icon ion-md-cart"></i></a></li>
+													<li><a href=""  data-tooltip="Add to Cart"><i class="icon ion-md-cart"></i></a></li>
 													<li><a href="#"  data-tooltip="Compare"><i class="icon ion-md-options"></i></a></li>
 													<li><a href="#"  data-toggle = "modal" data-target="#quick-view-modal-container" data-tooltip="Quick View"><i class="icon ion-md-open"></i></a></li>
 												</ul>

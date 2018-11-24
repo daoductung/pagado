@@ -1,3 +1,4 @@
+@extends('order.order_detail')
 @extends('layout.layout')
 @section('admin-main-content')
 
@@ -41,7 +42,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Sản phẩm
+        Hóa Đơn
       </h1>
     </section>
 
@@ -49,10 +50,10 @@
     <section class="content">
       <!-- /.row -->
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-md-6">
           <div class="box">
             <div class="box-header">
-              <h3 class="box-title">Danh sách Sản phẩm</h3>
+              <h3 class="box-title">Danh sách Hóa Đơn</h3>
 
               <div class="box-tools">
                   <div class="input-group input-group-sm" style="width: 150px;">
@@ -70,30 +71,67 @@
                 <tr>
                   <th>Mã</th>
                   <th>Tên</th>
-                  <th>Ảnh</th>
-                  <th>Ảnh 2</th>
+                  <th>Địa chỉ</th>
+                  <th>SĐT</th>
                   <th colspan="2">Chức năng</th>
                 </tr>
-                @foreach($lst_product as $product)
+                @foreach($lst_order as $order)
                 	<tr>
-	                  <td>{{ $product->id }}</td>
-	                  <td>{{ $product->name }}</td>
+	                  <td>{{ $order->id }}</td>
+	                  <td>{{ $order->name }}</td>
                     <td>
-                      <img width="50" height="50" src="{{ $product->image }}"/>
+                     {{ $order->DiaChi }}
                     </td>
                     <td>
-                      <img width="50" height="50" src="{{ $product->image1 }}"/>
+                     {{ $order->SDT }}
                     </td>
-                    <td><a href="product/edit/{{ $product->id }}">Sửa</a></td>
-                    <td><a href="product/delete/{{ $product->id }}">Xóa</a></td>
+                    <td><a href="order/edit/{{ $order->id }}">Sửa</a></td>
+                    <td><a href="order/delete/{{ $order->id }}">Xóa</a></td>
 	                </tr>
-	            @endforeach
+        @endforeach
+
+              </table>
+            </div>
+            <!-- /.box-body -->
+            <div class="box-footer">
+                <a class="btn btn-primary" href="/order/add">Thêm mới</a>
+            </div>
+          </div>
+          <!-- /.box -->
+        </div>
+        <div class="col-md-6">
+          <div class="box">
+             <h4 class="box-title">Danh sách chi tiết Hóa Đơn</h4>
+            <!-- /.box-header -->
+            <div class="box-body table-responsive no-padding">
+              <table class="table table-hover">
+                <tr>
+                  <th>Mã</th>
+                  <th>Tên</th>
+                  <th>Địa chỉ</th>
+                  <th>SĐT</th>
+                  <th colspan="2">Chức năng</th>
+                </tr>
+                @foreach($lst_order as $order)
+                  <tr>
+                    <td>{{ $order->id }}</td>
+                    <td>{{ $order->name }}</td>
+                    <td>
+                     {{ $order->DiaChi }}
+                    </td>
+                    <td>
+                     {{ $order->SDT }}
+                    </td>
+                    <td><a href="order/edit/{{ $order->id }}">Sửa</a></td>
+                    <td><a href="order/delete/{{ $order->id }}">Xóa</a></td>
+                  </tr>
+              @endforeach
               
               </table>
             </div>
             <!-- /.box-body -->
             <div class="box-footer">
-                <a class="btn btn-primary" href="/product/add">Thêm mới</a>
+                <a class="btn btn-primary" href="/order/add">Thêm mới</a>
             </div>
           </div>
           <!-- /.box -->
@@ -104,3 +142,4 @@
   </div>
 
 @endsection
+

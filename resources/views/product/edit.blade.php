@@ -32,13 +32,13 @@
 
                  <div class="form-group">
                   <label for="txtImage">Ảnh</label><br>
-                  <img width="100" height="100" src="{{ $product->image }}"/>
+                  <img width="100" height="100" src="/{{ $product->image }}"/>
                   <input type="file" name="Image" class="form-control" id="txtImage" placeholder="Ảnh">
                 </div>
 
                  <div class="form-group">
                   <label for="txtImage">Ảnh 2</label><br>
-                  <img width="100" height="100" src="{{ $product->image1 }}"/>
+                  <img width="100" height="100" src="/{{ $product->image1 }}"/>
                   <input type="file" name="Image1" class="form-control" id="txtImage" placeholder="Ảnh">
                 </div>
 

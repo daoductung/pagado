@@ -34,7 +34,7 @@
                 </div>
                  <div class="form-group">
                   <label for="txtImage">Ảnh 2</label>
-                  <input type="file" name="Image1" class="form-control" id="txtImage" placeholder="Ảnh">
+                  <input type="file" name="Image1" class="form-control" id="txtImage1" placeholder="Ảnh">
                 </div>
             
               </div>
