@@ -112,28 +112,26 @@
                             <form action="#">
                                 <div class="row">
                                     <div class="col-md-6 col-12 mb-25">
-                                        <select class="nice-select">
-                                            <option>Bangladesh</option>
-                                            <option>China</option>
-                                            <option>country</option>
-                                            <option>India</option>
-                                            <option>Japan</option>
-                                        </select>
+                                        <form action="/action_page.php">
+                                            <input type="text" placeholder="Tên Đầy Đủ" pattern=".{6,}" minlength="1"
+                                                   title="Vui lòng chỉ nhập kí tự">
+
+                                        </form>
                                     </div>
                                     <div class="col-md-6 col-12 mb-25">
-                                        <select class="nice-select">
-                                            <option>Dhaka</option>
-                                            <option>Barisal</option>
-                                            <option>Khulna</option>
-                                            <option>Comilla</option>
-                                            <option>Chittagong</option>
-                                        </select>
                                     </div>
                                     <div class="col-md-6 col-12 mb-25">
-                                        <input type="text" placeholder="Postcode / Zip">
+                                        <input type="text" placeholder="Địa Chỉ" pattern=".{6,}" minlength="1"
+                                               title="Vui lòng chỉ nhập kí tự">
                                     </div>
                                     <div class="col-md-6 col-12 mb-25">
-                                        <input type="submit" value="Estimate">
+                                    </div>
+                                    <div class="col-md-6 col-12 mb-25">
+                                            <input type="number" placeholder="Số Điện Thoại" minlength="1"
+                                                  pattern="{10}"  title="Vui lòng chỉ nhập số">
+                                    </div>
+                                    <div class="col-md-6 col-12 mb-25">
+                                        <input type="submit" value="Xác Nhận">
                                     </div>
                                 </div>
                             </form>
@@ -173,7 +171,7 @@
                                 <h2>Grand Total <span>$1250.00</span></h2>
                             </div>
                             <div class="cart-summary-button">
-                                <button class="checkout-btn">Checkout</button>
+                                <button class="checkout-btn" onclick="myFunction()">Checkout</button>
                                 <button class="update-btn">Update Cart</button>
                             </div>
                         </div>
