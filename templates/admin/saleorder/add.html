@@ -6,6 +6,9 @@
 <script type="text/javascript">
     function AddSaleOrder() {
         var name = $("#txtName").val();
+        var nameuser = $("#txtKhachHang").val();
+        var addressuser = $("#txtDiaChi").val();
+        var numberphone = $("#txtSdt").val();
         var sale_order_detail = [];
 
         $("#tbSaleOrderDetail tr.product-item").each(function () {
@@ -25,6 +28,9 @@
           data: {
             'csrfmiddlewaretoken': '{{ csrf_token }}',
             'name': name,
+            'name_user':nameuser,
+            'address_user':addressuser,
+            'number_phone':numberphone,
             'sale_order_detail':  JSON.stringify(sale_order_detail)
           }
         }).done(function( msg ) {
@@ -75,12 +81,26 @@
                         <div class="box-body">
                             <div class="form-group">
                                 <label for="txtName">Tên</label>
-                                <input type="text" class="form-control" id="txtName" placeholder="Tên">
+                                <input type="text" name="name" class="form-control" id="txtName" placeholder="Tên">
                             </div>
                             <div class="form-group">
                                 <label for="txtDate">Ngày</label>
                                 <input type="text" class="form-control" id="txtDate" placeholder="Ngày">
                             </div>
+                            <div class="form-group">
+                                <label for="txtKhachHang">Tên khách hàng</label>
+                                <input type="text" name="nameuser" class="form-control" id="txtKhachHang" placeholder="Tên khách hàng">
+                            </div>
+                            <div class="form-group">
+                                <label for="txtDiaChi">Địa chỉ</label>
+                                <input type="text" name="addressuser" class="form-control" id="txtDiaChi" placeholder="Địa chỉ">
+                            </div>
+                            <div class="form-group">
+                                <label for="txtSdt">Số địa chỉ</label>
+                                <input type="text" name="numerphone" class="form-control" id="txtSdt" placeholder="Số điện thoại">
+                            </div>
+
+
                         </div>
                         <!-- /.box-body -->
 
