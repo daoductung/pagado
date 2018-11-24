@@ -76,8 +76,8 @@ DATABASES = {
         'NAME': 'backend',
         'HOST': 'localhost',
         'PORT': '5432',
-        'USER': 'nhat',
-        'PASSWORD': 'nhat'
+        'USER': 'python',
+        'PASSWORD': 'python'
     }
 }
 
