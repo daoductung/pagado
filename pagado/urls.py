@@ -19,6 +19,7 @@ from pagado import settings
 
 urlpatterns = [
     path('', include('home.urls')),
+    path('', include('saleorder.urls')),
     path('', include('user.urls')),
     path('', include('product.urls'))
 ]
