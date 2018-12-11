@@ -74,11 +74,11 @@ WSGI_APPLICATION = 'pagado.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'do7norn3v2mot',
-        'HOST': 'ec2-50-17-203-51.compute-1.amazonaws.com',
+        'NAME': 'dc5gbo4ep5n61h',
+        'HOST': 'ec2-23-21-65-173.compute-1.amazonaws.com',
         'PORT': '5432',
-        'USER': 'mltcqdlhzoufwq',
-        'PASSWORD': '69f03a4a564b20191659fcd73fc12a21d0d34ea9b48c7fb2726a57693109858c',
+        'USER': 'gvjldscydqndef',
+        'PASSWORD': '2770be21819c0996a4c990054c822ef941b90b3430de47774d2fffb2e97ed84d',
         'CONN_MAX_AGE': 600,
     }
 }
